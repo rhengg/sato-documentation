@@ -1,4 +1,4 @@
-# Splay custom code documentation
+# Sato custom code documentation
 
 ## Step 1: Create a div with an id, wherever you want to add the video player, and name it as you wish.
 
@@ -92,7 +92,7 @@ player.start();
 </body>
 ```
 
-### Note : SkaraPlayer required parameters are: 'id' and 'token', which are available on the Splay dashboard.
+### Note : Sato player required parameter is 'id', which is available on the Sato dashboard.
 
 <!-- ### The div id is the one you created in Step 2 -->
 
