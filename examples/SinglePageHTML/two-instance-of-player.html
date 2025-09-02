@@ -6,7 +6,7 @@
     <title>Document</title>
     <link
       rel="stylesheet"
-      href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.47/index.css"
+      href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.56/index.css"
     />
   </head>
   <body>
@@ -20,8 +20,6 @@
           <div
             style="height: 100%; width: 100%"
             id="home-showreel-mobile"
-            data-src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
-            data-media-type="mp4"
           ></div>
         </div>
         <button id="home-play-mobile">play</button>
@@ -31,33 +29,25 @@
         <h2>Video 1</h2>
 
         <div style="width: 840px; height: 480px">
-          <div
-            style="height: 100%; width: 100%"
-            id="home-showreel"
-            data-src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-            data-media-type="mp4"
-          ></div>
+          <div style="height: 100%; width: 100%" id="home-showreel"></div>
         </div>
         <button id="home-play">play</button>
         <button id="home-pause">pause</button>
       </div>
     </div>
 
-    <script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.47/index.js"></script>
+    <script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.56/index.js"></script>
     <script>
       // const homeShowreelId = "b97b462f-4009-489d-8531-417cf6814188";
 
       // const homeShowreelToken =
       //   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNDgzYmM1NjAtZjI3Yi00ZjZiLWIwZmQtYmMzMTM1NTcyODc5IiwiaXNzIjoic2thcmEtcGxheWVyIiwic3ViIjoiYjk3YjQ2MmYtNDAwOS00ODlkLTg1MzEtNDE3Y2Y2ODE0MTg4IiwiYXVkIjpbInBsYXllci1wcm9kIl0sIm5iZiI6MTcxMDMxNTgwNSwiaWF0IjoxNzEwMzE1ODA1fQ.dOjPGA3sVR9nuxZs--ycFlk8qWQ3yDZzM7p-nbUNJBY";
 
-      const homeShowreelId = "d09bcbf7-2cfb-491f-842e-fc1685fde009";
-      const homeShowreelToken =
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjE2MmNjNTItNjM1My00ZDM0LWI5MGMtYzczNDRjNDE0NDBiIiwiaXNzIjoic2thcmEtcGxheWVyIiwic3ViIjoiZDA5YmNiZjctMmNmYi00OTFmLTg0MmUtZmMxNjg1ZmRlMDA5IiwiYXVkIjpbInBsYXllci1wcm9kIl0sIm5iZiI6MTcwOTYzMzEzMCwiaWF0IjoxNzA5NjMzMTMwfQ.CwVdZg6e6GeHE0IVHFZ7duxvH5BZfHtVGIhpnxOz1LQ";
+      const homeShowreelId = "41af5fd4-f7d5-4ef9-b10f-1603a175fa5e";
 
       const homeShowreel = new window.SkaraPlayer(
         "home-showreel-mobile",
-        homeShowreelId,
-        homeShowreelToken
+        homeShowreelId
       );
       homeShowreel.start();
 
@@ -69,8 +59,7 @@
 
       const homeShowreelSecond = new window.SkaraPlayer(
         "home-showreel",
-        homeShowreelId,
-        homeShowreelToken
+        homeShowreelId
       );
       homeShowreelSecond.start();
 
