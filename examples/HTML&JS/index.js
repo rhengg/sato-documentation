@@ -1,4 +1,4 @@
-const id = "41af5fd4-f7d5-4ef9-b10f-1603a175fa5e";
+const id = "7578284a-9183-40dd-a98f-b2cc149e3a0d";
 const player = new window.SkaraPlayer("player", id);
 player.start();
 

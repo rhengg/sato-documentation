@@ -25,33 +25,33 @@ Example :
 ## Step 2: Copy this CSS link
 
 `
-https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.56/index.css`
+https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.58/index.css`
 
 ## Step 3: Create a 'link' tag and add the CSS link you copied in Step 3.
 
 ```html
 <link
   rel="stylesheet"
-  href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.56/index.css"
+  href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.58/index.css"
 />
 ```
 
 ## Step 4: Now copy this JS link
 
 `
-https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.56/index.js`
+https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.58/index.js`
 
 ## Step 5: Create a 'script' tag inside body element and add the JS link you copied in Step 5
 
 ```html
-<script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.56/index.js"></script>
+<script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.58/index.js"></script>
 ```
 
 <!-- ```html
 <head>
   <link
     rel="stylesheet"
-    href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.56/index.css"
+    href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.58/index.css"
   />
 </head>
 
@@ -62,7 +62,7 @@ https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.56/index.js
     data-media-type="hls"
   ></div>
 
-  <script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.56/index.js"></script>
+  <script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.58/index.js"></script>
 </body>
 ``` -->
 
@@ -123,7 +123,7 @@ pauseBtn.addEventListener("click", () => player.pause());
   <head>
     <link
       rel="stylesheet"
-      href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.56/index.css"
+      href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.58/index.css"
     />
   </head>
 
@@ -133,7 +133,7 @@ pauseBtn.addEventListener("click", () => player.pause());
     <button id="play-btn">play</button>
     <button id="pause-btn">puase</button>
 
-    <script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.56/index.js"></script>
+    <script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.58/index.js"></script>
     <script>
       const id = "b8579cc0-9d40-43ef-8636-a32976e84899";
 
@@ -159,7 +159,7 @@ index.html ->
   <head>
     <link
       rel="stylesheet"
-      href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.56/index.css"
+      href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.58/index.css"
     />
   </head>
 
@@ -169,7 +169,7 @@ index.html ->
     <button id="play-btn">play</button>
     <button id="pause-btn">puase</button>
 
-    <script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.56/index.js"></script>
+    <script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.58/index.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
