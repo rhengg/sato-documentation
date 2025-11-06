@@ -189,3 +189,77 @@ playBtn.addEventListener("click", () => player.play());
 const pauseBtn = document.querySelector("#pause-btn");
 pauseBtn.addEventListener("click", () => player.pause());
 ```
+
+## Available methods and properties
+
+### Start
+
+Starts the player
+
+```
+player.start()
+```
+
+### Play
+
+- Attempts to begin playback of the media.
+- It returns a `Promise` which is resolved when playback has been successfully started.
+
+```
+player.play()
+```
+
+### Pause
+
+- Method will pause playback of the media,
+- if the media is already in a paused state this method will have no effect.
+
+```
+player.pause()
+```
+
+### Toggle full screen
+
+```
+player.toggleFullScreen()
+```
+
+### Toggle mute
+
+A `true` value means the player is muted
+
+```
+player.muted(true)
+```
+
+### Increase volume
+
+The value to increase volume
+
+```
+player.incVolume(1)
+```
+
+### Decrease volume
+
+The value to decrease volume
+
+```
+player.decVolume(1)
+```
+
+### Seek forward
+
+The number of seconds the go forward
+
+```
+player.seekForward(10)
+```
+
+### Seek backward
+
+The number of seconds the go backward
+
+```
+player.seekBackward(10)
+```
