@@ -190,7 +190,7 @@ const pauseBtn = document.querySelector("#pause-btn");
 pauseBtn.addEventListener("click", () => player.pause());
 ```
 
-## Available methods and properties
+## Available methods
 
 ### Start
 
