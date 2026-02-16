@@ -229,7 +229,7 @@ player.toggleFullScreen()
 A `true` value means the player is muted
 
 ```
-player.muted(true)
+player.mute(true)
 ```
 
 ### Increase volume
@@ -237,7 +237,7 @@ player.muted(true)
 The value to increase volume
 
 ```
-player.incVolume(1)
+player.incVolume(0.05)
 ```
 
 ### Decrease volume
@@ -245,7 +245,7 @@ player.incVolume(1)
 The value to decrease volume
 
 ```
-player.decVolume(1)
+player.decVolume(0.05)
 ```
 
 ### Seek forward
