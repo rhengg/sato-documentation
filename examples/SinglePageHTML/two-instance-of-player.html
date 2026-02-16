@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +6,7 @@
     <title>Document</title>
     <link
       rel="stylesheet"
-      href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.58/index.css"
+      href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.css"
     />
   </head>
   <body>
@@ -36,13 +36,13 @@
       </div>
     </div>
 
-    <script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.58/index.js"></script>
+    <script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.js"></script>
     <script>
       const homeShowreelId = "7578284a-9183-40dd-a98f-b2cc149e3a0d";
 
       const homeShowreel = new window.SkaraPlayer(
         "home-showreel-mobile",
-        homeShowreelId
+        homeShowreelId,
       );
       homeShowreel.start();
 
@@ -54,18 +54,18 @@
 
       const homeShowreelSecond = new window.SkaraPlayer(
         "home-showreel",
-        homeShowreelId
+        homeShowreelId,
       );
       homeShowreelSecond.start();
 
       const homePlayBtnMOB = document.getElementById("home-play");
       homePlayBtnMOB.addEventListener("click", () => {
-        homeShowreelSecond.play(), console.log("home-play");
+        (homeShowreelSecond.play(), console.log("home-play"));
       });
 
       const homePauseBtnMOB = document.getElementById("home-pause");
       homePauseBtnMOB.addEventListener("click", () =>
-        homeShowreelSecond.pause()
+        homeShowreelSecond.pause(),
       );
     </script>
   </body>
