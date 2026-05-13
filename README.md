@@ -5,7 +5,7 @@
 #### For this demo, we are naming the id as "player"
 
 ```html
-<div id="player"></div>
+<div id="player" style="width: 600px; aspect-ratio: 16/9"></div>
 ```
 
 <!-- ## Step 2: Pass the attributes: data-src (custom video url) and data-media-type (custom video media type)to the div you created in Step 1, like the example below.
@@ -128,7 +128,7 @@ pauseBtn.addEventListener("click", () => player.pause());
   </head>
 
   <body>
-    <div id="player"></div>
+    <div id="player" style="width: 600px; aspect-ratio: 16/9"></div>
 
     <button id="play-btn">play</button>
     <button id="pause-btn">puase</button>
@@ -164,7 +164,7 @@ index.html ->
   </head>
 
   <body>
-    <div id="player"></div>
+    <div id="player" style="width: 600px; aspect-ratio: 16/9"></div>
 
     <button id="play-btn">play</button>
     <button id="pause-btn">puase</button>
