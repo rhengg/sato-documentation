@@ -2,19 +2,19 @@
   <head>
     <link
       rel="stylesheet"
-      href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.css"
+      href="https://api.satoplayer.com/static/v1.1.38/index.css"
     />
   </head>
 
   <body>
-    <div id="player"></div>
+    <div id="player" style="width: 600px; aspect-ratio: 16/9"></div>
 
     <button id="play-btn">play</button>
     <button id="pause-btn">puase</button>
 
-    <script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.js"></script>
+    <script src="https://api.satoplayer.com/static/v1.1.38/index.js"></script>
     <script>
-      const id = "7578284a-9183-40dd-a98f-b2cc149e3a0d";
+      const id = "b462c7f1-ef56-4a49-8183-d10312ad79ab";
       const player = new window.SkaraPlayer("player", id);
       player.start();
 

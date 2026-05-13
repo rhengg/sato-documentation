@@ -1,4 +1,4 @@
-const id = "7578284a-9183-40dd-a98f-b2cc149e3a0d";
+const id = "b462c7f1-ef56-4a49-8183-d10312ad79ab";
 const player = new window.SkaraPlayer("player", id);
 player.start();
 
@@ -7,4 +7,3 @@ playBtn.addEventListener("click", () => player.play());
 
 const pauseBtn = document.querySelector("#pause-btn");
 pauseBtn.addEventListener("click", () => player.pause());
-``;

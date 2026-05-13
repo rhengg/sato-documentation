@@ -25,33 +25,33 @@ Example :
 ## Step 2: Copy this CSS link
 
 `
-https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.css`
+https://api.satoplayer.com/static/v1.1.38/index.css`
 
 ## Step 3: Create a 'link' tag and add the CSS link you copied in Step 3.
 
 ```html
 <link
   rel="stylesheet"
-  href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.css"
+  href="https://api.satoplayer.com/static/v1.1.38/index.css"
 />
 ```
 
 ## Step 4: Now copy this JS link
 
 `
-https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.js`
+https://api.satoplayer.com/static/v1.1.38/index.js`
 
 ## Step 5: Create a 'script' tag inside body element and add the JS link you copied in Step 5
 
 ```html
-<script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.js"></script>
+<script src="https://api.satoplayer.com/static/v1.1.38/index.js"></script>
 ```
 
 <!-- ```html
 <head>
   <link
     rel="stylesheet"
-    href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.css"
+    href="https://api.satoplayer.com/static/v1.1.38/index.css"
   />
 </head>
 
@@ -62,7 +62,7 @@ https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.js
     data-media-type="hls"
   ></div>
 
-  <script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.js"></script>
+  <script src="https://api.satoplayer.com/static/v1.1.38/index.js"></script>
 </body>
 ``` -->
 
@@ -73,7 +73,7 @@ https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.js
 #### To use in JS file
 
 ```js
-const id = "b8579cc0-9d40-43ef-8636-a32976e84899";
+const id = "b462c7f1-ef56-4a49-8183-d10312ad79ab";
 
 const player = new window.SkaraPlayer("player", id);
 player.start();
@@ -84,7 +84,7 @@ player.start();
 ```html
 <body>
   <script>
-    const id = "b8579cc0-9d40-43ef-8636-a32976e84899";
+    const id = "b462c7f1-ef56-4a49-8183-d10312ad79ab";
 
     const player = new window.SkaraPlayer("player", id);
     player.start();
@@ -123,7 +123,7 @@ pauseBtn.addEventListener("click", () => player.pause());
   <head>
     <link
       rel="stylesheet"
-      href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.css"
+      href="https://api.satoplayer.com/static/v1.1.38/index.css"
     />
   </head>
 
@@ -133,9 +133,9 @@ pauseBtn.addEventListener("click", () => player.pause());
     <button id="play-btn">play</button>
     <button id="pause-btn">puase</button>
 
-    <script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.js"></script>
+    <script src="https://api.satoplayer.com/static/v1.1.38/index.js"></script>
     <script>
-      const id = "b8579cc0-9d40-43ef-8636-a32976e84899";
+      const id = "b462c7f1-ef56-4a49-8183-d10312ad79ab";
 
       const player = new window.SkaraPlayer("player", id);
       player.start();
@@ -159,7 +159,7 @@ index.html ->
   <head>
     <link
       rel="stylesheet"
-      href="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.css"
+      href="https://api.satoplayer.com/static/v1.1.38/index.css"
     />
   </head>
 
@@ -169,7 +169,7 @@ index.html ->
     <button id="play-btn">play</button>
     <button id="pause-btn">puase</button>
 
-    <script src="https://splay-plugin-web.s3.ap-south-1.amazonaws.com/production/v0.1.69/index.js"></script>
+    <script src="https://api.satoplayer.com/static/v1.1.38/index.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
@@ -178,7 +178,7 @@ index.html ->
 ```js
 index.js ->
 
-const id = "b8579cc0-9d40-43ef-8636-a32976e84899";
+const id = "b462c7f1-ef56-4a49-8183-d10312ad79ab";
 
 const player = new window.SkaraPlayer("player", id);
 player.start();
