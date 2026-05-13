@@ -7,3 +7,25 @@ playBtn.addEventListener("click", () => player.play());
 
 const pauseBtn = document.querySelector("#pause-btn");
 pauseBtn.addEventListener("click", () => player.pause());
+
+const fullscreenBtn = document.querySelector("#fullscreen");
+fullscreenBtn.addEventListener("click", () => {
+  console.log("xx", player);
+
+  player.toggleFullScreen();
+});
+
+const muteBtn = document.querySelector("#mute");
+muteBtn.addEventListener("click", () => player.mute(true));
+
+const incVolumeBtn = document.querySelector("#incVolume");
+incVolumeBtn.addEventListener("click", () => player.incVolume(0.05));
+
+const decVolumeBtn = document.querySelector("#decVolume");
+decVolumeBtn.addEventListener("click", () => player.decVolume(0.05));
+
+const seekForwardBtn = document.querySelector("#seekForward");
+seekForwardBtn.addEventListener("click", () => player.seekForward(10));
+
+const seekBackwardBtn = document.querySelector("#seekBackward");
+seekBackwardBtn.addEventListener("click", () => player.seekBackward(10));
