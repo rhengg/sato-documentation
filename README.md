@@ -25,33 +25,33 @@ Example :
 ## Step 2: Copy this CSS link
 
 `
-https://api.satoplayer.com/static/v1.1.38/index.css`
+https://cdn.satoplayer.com/players/v1.1.41/index.css`
 
 ## Step 3: Create a 'link' tag and add the CSS link you copied in Step 3.
 
 ```html
 <link
   rel="stylesheet"
-  href="https://api.satoplayer.com/static/v1.1.38/index.css"
+  href="https://cdn.satoplayer.com/players/v1.1.41/index.css"
 />
 ```
 
 ## Step 4: Now copy this JS link
 
 `
-https://api.satoplayer.com/static/v1.1.38/index.js`
+https://cdn.satoplayer.com/players/v1.1.41/index.js`
 
 ## Step 5: Create a 'script' tag inside body element and add the JS link you copied in Step 5
 
 ```html
-<script src="https://api.satoplayer.com/static/v1.1.38/index.js"></script>
+<script src="https://cdn.satoplayer.com/players/v1.1.41/index.js"></script>
 ```
 
 <!-- ```html
 <head>
   <link
     rel="stylesheet"
-    href="https://api.satoplayer.com/static/v1.1.38/index.css"
+    href="https://cdn.satoplayer.com/players/v1.1.41/index.css"
   />
 </head>
 
@@ -62,7 +62,7 @@ https://api.satoplayer.com/static/v1.1.38/index.js`
     data-media-type="hls"
   ></div>
 
-  <script src="https://api.satoplayer.com/static/v1.1.38/index.js"></script>
+  <script src="https://cdn.satoplayer.com/players/v1.1.41/index.js"></script>
 </body>
 ``` -->
 
@@ -123,7 +123,7 @@ pauseBtn.addEventListener("click", () => player.pause());
   <head>
     <link
       rel="stylesheet"
-      href="https://api.satoplayer.com/static/v1.1.38/index.css"
+      href="https://cdn.satoplayer.com/players/v1.1.41/index.css"
     />
   </head>
 
@@ -133,7 +133,7 @@ pauseBtn.addEventListener("click", () => player.pause());
     <button id="play-btn">play</button>
     <button id="pause-btn">puase</button>
 
-    <script src="https://api.satoplayer.com/static/v1.1.38/index.js"></script>
+    <script src="https://cdn.satoplayer.com/players/v1.1.41/index.js"></script>
     <script>
       const id = "b462c7f1-ef56-4a49-8183-d10312ad79ab";
 
@@ -159,7 +159,7 @@ index.html ->
   <head>
     <link
       rel="stylesheet"
-      href="https://api.satoplayer.com/static/v1.1.38/index.css"
+      href="https://cdn.satoplayer.com/players/v1.1.41/index.css"
     />
   </head>
 
@@ -169,7 +169,7 @@ index.html ->
     <button id="play-btn">play</button>
     <button id="pause-btn">puase</button>
 
-    <script src="https://api.satoplayer.com/static/v1.1.38/index.js"></script>
+    <script src="https://cdn.satoplayer.com/players/v1.1.41/index.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
